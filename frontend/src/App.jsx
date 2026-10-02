@@ -12,14 +12,14 @@ import { cn } from "cn";
 export default function App() {
   return (
     <>
-      <div className="border-x-2 min-h-dvh max-w-230 w-95/100 m-auto">
+      <div className="border-x-2 min-h-dvh max-w-230 w-96/100 m-auto">
         <header className="w-full px-4 border-b-2">
           <NavigationMenu className={"min-h-16 w-full max-w-full"}>
             <NavigationMenuList className={"w-full justify-end"}>
               <NavigationMenuItem className={"mr-auto"}>
                 <NavigationMenuLink
                   className={"text-2xl font-semibold hover:bg-transparent"}
-                  render={<Link to={"/"} />}  
+                  render={<Link to={"/"} />}
                 >
                   SBS
                 </NavigationMenuLink>
@@ -32,7 +32,7 @@ export default function App() {
             </NavigationMenuList>
           </NavigationMenu>
         </header>
-        <main className="border-b-2">
+        <main className="border-b-2 p-10">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />

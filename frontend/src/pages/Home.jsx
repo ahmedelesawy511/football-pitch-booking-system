@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="flex flex-row gap-8 m-10 mt-12">
+        <div className="flex flex-row gap-8">
           <div className="flex-[1_1_0] py-12">
             <h1 className="text-5xl mb-4 font-extrabold leading-[1.125]">
               Book a Service in seconds.
