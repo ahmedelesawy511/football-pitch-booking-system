@@ -21,7 +21,7 @@ export default function App() {
                   className={"text-2xl font-semibold hover:bg-transparent"}
                   render={<Link to={"/"} />}
                 >
-                  SBS
+                  FPBS
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -32,7 +32,7 @@ export default function App() {
             </NavigationMenuList>
           </NavigationMenu>
         </header>
-        <main className="border-b-2 p-10">
+        <main className="border-b-2 p-5 sm:p-7 md:p-10">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
